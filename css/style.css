@@ -30,7 +30,7 @@ h1{
 #container-button{
     padding: 20px 30px;
     width: 100%;
-    height: 10%;
+    height: 8%;
 }
 .button{
     
@@ -39,11 +39,68 @@ h1{
     height: 30px;
     border-radius: 5px;
 }
-#blue-button{
+#blue{
     background-color: dodgerblue;
     color: white;
 }
 main{
-    margin-top: 20px;
     border-top: 2px solid grey;
+}
+#container-task{
+    margin: 40px 25px;
+   
+
+}
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.checkmark{
+    display: inline-block;
+    color: green;
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    text-align:center;
+    margin-right: 5px;
+}
+.label{
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+
+}
+#label-viola{
+    background-color: indigo;
+    color: white;
+}
+#label-green{
+    background-color: rgb(84, 233, 25);
+    color: white;
+
+}
+#label-orange{
+    background-color: rgb(235, 136, 23);
+    color: white;
+}
+#label-magenta{
+    background-color: rgb(247, 16, 189);
+    color: white;
+}
+.cross{
+    display: inline-block;
+    color: red;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align:center;
+    margin-right: 5px;
+}
+li{
+    margin-top: 10px;
 }
